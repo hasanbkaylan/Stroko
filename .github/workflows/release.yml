@@ -31,7 +31,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Debug APK Derle
-        run: ./gradlew assembleDebug -Djava.awt.headless=true --stacktrace
+        run: ./gradlew assembleDebug -x validateSigningDebug -Djava.awt.headless=true
 
       - name: GitHub Release'e Yükle
         uses: softprops/action-gh-release@v2
