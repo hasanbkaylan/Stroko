@@ -7,5 +7,4 @@ plugins {
   alias(libs.plugins.secrets) apply false
   alias(libs.plugins.google.services) apply false
   alias(libs.plugins.kotlin.serialization) apply false
-  id("org.jetbrains.kotlin.plugin.compose") version "2.2.10" apply false 
 }
